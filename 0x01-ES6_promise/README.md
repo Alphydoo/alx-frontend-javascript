@@ -19,5 +19,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Files
 
-[0. Keep every promise you make and only make promises you can keep](./0-promise.js)
+### [0. Keep every promise you make and only make promises you can keep](./0-promise.js)
 * Return a Promise using this prototype function getResponseFromAPI()
