@@ -83,3 +83,49 @@ floors (Number)
 Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
 Implement a getter for each attribute.
 Override the method named evacuationWarningMessage and return the following string Evacuate slowly the NUMBER_OF_FLOORS floors.
+
+### [7. Airport](./7-airport.js)
+* Implement a class named Airport:
+
+Constructor attributes:
+name (String)
+code (String)
+Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+The default string description of the class should return the airport code (example below).
+
+### [8. Primitive - Holberton Class](./8-hbtn_class.js)
+* Implement a class named HolbertonClass:
+
+Constructor attributes:
+size (Number)
+location (String)
+Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+When the class is cast into a Number, it should return the size.
+When the class is cast into a String, it should return the location.
+
+### [9. Hoisting](./9-hoisting.js)
+* Fix this code and make it work.
+
+### [10. Vroom](./10-car.js)
+* Implement a class named Car:
+
+Constructor attributes:
+brand (String)
+motor (String)
+color (String)
+Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+Add a method named cloneCar. This method should return a new object of the class.
+Hint: Symbols in ES6
+
+### [11. EVCar](./100-evcar.js)
+* Import Car from 10-car.js.
+
+Implement a class named EVCar that extends the Car class:
+
+Constructor attributes:
+brand (String)
+motor (String)
+color (String)
+range (String)
+Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+For privacy reasons, when cloneCar is called on a EVCar object, the object returned should be an instance of Car instead of EVCar.
